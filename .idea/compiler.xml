@@ -6,25 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="B1" />
-        <module name="B2" />
-      </profile>
-      <profile name="Annotation profile for projectA" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="A1" />
         <module name="A2" />
+        <module name="B1" />
+        <module name="B2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="A1" target="1.5" />
-      <module name="A2" target="1.5" />
+      <module name="A2" target="1.8" />
       <module name="B" target="1.5" />
       <module name="B1" target="1.5" />
       <module name="B2" target="1.5" />
+      <module name="C" target="1.5" />
       <module name="projectA" target="1.5" />
       <module name="projectB" target="1.5" />
+      <module name="ProjectX" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
